@@ -35,6 +35,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         ButterKnife.inject(this);
 
+        System.out.println("123");
         initDatas();
         initListener();
         mRecyclerAdapter = new RecyclerAdapter(this, mList);
